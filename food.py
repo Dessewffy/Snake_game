@@ -11,7 +11,7 @@ class Food(Turtle):
         self.speed("fastest")
         self.refresh()
 
-
+# Randomisation of the "food"
     def refresh(self):
         randomX = random.randint(-200, 200)
         randomY = random.randint(-200, 200)

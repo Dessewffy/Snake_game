@@ -2,7 +2,7 @@ import time
 class Difficulty:
     def __init__(self):
         super().__init__()
-
+# Settings of the difficulty level
     def set_difficulty(self, user_level):
         if user_level == "easy":
             time.sleep(0.1)
